@@ -1,3 +1,20 @@
 import os
 os.system("clear")
-print ("Welcome to tool for hacking")
+#pylint:disable=C0303
+#pylint:disable=E0602
+import socket 
+hostName= socket.gethostname()
+ipAdd=socket.gethostbyname(hostName)
+#Phone=gethostNumber()
+##print ('Phone : '+hostNumber)
+print ('     PC Name or Phone Name : '+hostName)
+print ('     IP-Address : '+ ipAdd)
+e = input ("     type your name :   ")
+if e =='PHONE 14 PRO' :
+    print ('    GOOD')
+else :
+    print ('     ERROR')
+#print ([5,10])
+#BY : 'MUHAMMAD ALAA 
+# THE CODE IT IS INTERNATIONAL...!
+#$slider-bg-color
